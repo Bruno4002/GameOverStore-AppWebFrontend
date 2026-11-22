@@ -3,7 +3,7 @@ import { Footer } from '../components/footer/index.js';
 import { Card } from '../components/card/index.js';
 import { Carousel } from '../components/carousel/index.js';
 import { Article } from '../components/article/index.js';
-import { Home } from '../pages/Home/index.js';
+import { Home } from '../pages/desktop/Home/index.js';
 
 // Central Registration of Web Components
 customElements.define('app-header', Header);
