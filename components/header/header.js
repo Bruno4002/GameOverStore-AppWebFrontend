@@ -2,15 +2,22 @@ const template = document.createElement('template');
 template.innerHTML = `
   <link rel="stylesheet" href="${new URL('./header.css', import.meta.url).href}">
   <header>
-    <div class="logo">WebComponents</div>
+    <div class="logo">GAME OVER STORE</div>
     <nav> 
       <div class="menu-icon">☰</div>
-      <ul class="links">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+      <div class="main-content">
+        <ul class="links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#">Carrinho</a></li>
+          <li><a href="#">Biblioteca</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Perfil</a></li>
+        </ul>
+        <input class="search" type="text" placeholder="Buscar jogos..">
+      </div>
+        <a href="index.html">
+         <img src="../../../assets/images/Logo.png" alt="Logo" height="70" width="150"> 
+        </a>
     </nav>
   </header>
 `;

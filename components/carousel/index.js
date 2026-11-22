@@ -1,1 +1,1 @@
-export { CarouselComponent as Carousel } from './carousel.js?v=2';
+export { CarouselComponent as Carousel } from './carousel.js';

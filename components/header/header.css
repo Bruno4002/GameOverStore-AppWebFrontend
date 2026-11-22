@@ -12,9 +12,25 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: var(--color-dark, #1f1f20);
+  background-color: var(--color-main, #0D468A);
   color: var(--color-light, #dce0e6);
   box-sizing: border-box;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+}
+
+.search{
+  border-radius: 15px;
+  background-color: var(--color-darkblue, #001631);
+  padding: 15px;
+  width: 20vw;
+  color: var(--color-light);
+  border: 1px solid var(--color-border, #428CFA);
 }
 
 .logo {
@@ -26,7 +42,9 @@ header {
 
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 65%;
 }
 
 .links {
@@ -73,6 +91,18 @@ a:hover {
     padding: 1rem 0;
     gap: 1rem;
   }
+  .logo {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primary, #2b4c7e);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    gap: 1rem;
+  }
 
   .links.active {
     display: flex; 
@@ -80,6 +110,9 @@ a:hover {
 
   .menu-icon {
     display: block; 
+  }
+  nav{
+    width: 100%;
   }
 
   .links li {

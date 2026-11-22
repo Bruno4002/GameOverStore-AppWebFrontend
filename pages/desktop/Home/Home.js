@@ -3,9 +3,9 @@ export class Home extends HTMLElement {
     this.innerHTML = `
       <main>
         <app-carousel>
-          <div class="carousel-item">Banner 1 - Bem-vindo!</div>
-          <div class="carousel-item">Banner 2 - Web Components</div>
-          <div class="carousel-item">Banner 3 - Shadow DOM & Slots</div>
+          <img "carousel-item" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" > 
+          <img "carousel-item" src="../../../assets/images/SpiderMan2.webp" alt="Spider Man 2 banner" > 
+          <img "carousel-item" src="../../../assets/images/CrimsonDesert.jpg" alt="Crimson Desert banner" > 
         </app-carousel>
 
         <div class="cards-grid">
