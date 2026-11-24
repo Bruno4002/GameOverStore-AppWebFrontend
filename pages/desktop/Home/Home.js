@@ -12,29 +12,27 @@ export class Home extends HTMLElement {
         <div class="cards">
           <h1>Em alta</h1>
             <div class="cards-grid">
-              <app-card>
-                <span slot="title">Card Design A</span>
-                <p>Um componente totalmente isolado visualmente, garantindo que o CSS não sofra interferências externas. Design
-                  moderno e limpo.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
 
-              <app-card>
-                <span slot="title">Card Design B</span>
-                <p>Utilizando a flexibilidade dos slots, este card pode receber variados tipos de conteúdo. É muito mais
-                  dinâmico agora.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
 
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
           </div>
         </div>
@@ -43,30 +41,24 @@ export class Home extends HTMLElement {
           <h1>Promoções</h1>
             <div class="cards-grid">
               <app-card>
-                <span slot="title">Card Design A</span>
-                <p>Um componente totalmente isolado visualmente, garantindo que o CSS não sofra interferências externas. Design
-                  moderno e limpo.</p>
-              </app-card>
-
-              <app-card>
-                <span slot="title">Card Design B</span>
-                <p>Utilizando a flexibilidade dos slots, este card pode receber variados tipos de conteúdo. É muito mais
-                  dinâmico agora.</p>
-                  </app-card>
-                  
-              <app-card>
-              <span slot="title">Card Design B</span>
-                <p>Utilizando a flexibilidade dos slots, este card pode receber variados tipos de conteúdo. É muito mais
-                  dinâmico agora.</p>
-                  
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
               <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+                <img class="img-card" src="../../../assets/images/SpiderMan2.webp" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
               <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+                <img class="img-card" src="../../../assets/images/CrimsonDesert.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
+              </app-card>
+              <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
+              </app-card>
+              <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
           </div>
         </div>
@@ -74,29 +66,27 @@ export class Home extends HTMLElement {
         <div class="cards">
           <h1>Lançamentos</h1>
             <div class="cards-grid">
-              <app-card>
-                <span slot="title">Card Design A</span>
-                <p>Um componente totalmente isolado visualmente, garantindo que o CSS não sofra interferências externas. Design
-                  moderno e limpo.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
 
-              <app-card>
-                <span slot="title">Card Design B</span>
-                <p>Utilizando a flexibilidade dos slots, este card pode receber variados tipos de conteúdo. É muito mais
-                  dinâmico agora.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
 
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
-              <app-card>
-                <span slot="title">Card Design C</span>
-                <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
+               <app-card>
+                <img class="img-card" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner" height="350" width="310"> 
+                <p>Teste</p>
               </app-card>
           </div>
         </div>

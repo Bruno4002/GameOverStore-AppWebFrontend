@@ -2,7 +2,6 @@ const template = document.createElement('template');
 template.innerHTML = `
   <link rel="stylesheet" href="${new URL('./card.css', import.meta.url).href}">
   <div class="card">
-    
     <div class="card-body">
       <p><slot>Conteúdo padrão do card. Adicione conteúdo aqui inserindo elementos dentro da tag no HTML.</slot></p>
     </div>
