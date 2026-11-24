@@ -1,0 +1,11 @@
+.cards{
+    margin-top: 8vh;
+    padding: 1vw;
+}
+.cards-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    width: 100%;
+}

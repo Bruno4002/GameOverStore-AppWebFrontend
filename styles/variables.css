@@ -1,6 +1,8 @@
 :root {
-  --color-primary: #0057a3;
-  --color-accent: #ffcc00;
+  --color-main: #0D468A;
+  --color-darkblue: #001631;
+  --color-border: #428CFA;
+  --color-secondary: #567ebb;
   --text-light: #fff;
   --font-primary: Arial, sans-serif;
 }
