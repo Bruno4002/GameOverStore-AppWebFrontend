@@ -7,11 +7,11 @@ template.innerHTML = `
       <div class="menu-icon">☰</div>
       <div class="main-content">
         <ul class="links">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="#">Carrinho</a></li>
-          <li><a href="#">Biblioteca</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Perfil</a></li>
+          <li><a href="#home-page">Início</a></li>
+          <li><a href="#carrinho">Carrinho</a></li>
+          <li><a href="#biblioteca">Biblioteca</a></li>
+          <li><a href="#sobre-nos">Sobre Nós</a></li>
+          <li><a href="#perfil">Perfil</a></li>
         </ul>
         <input class="search" type="text" placeholder="Buscar jogos..">
       </div>

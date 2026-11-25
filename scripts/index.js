@@ -4,6 +4,7 @@ import { Card } from '../components/card/index.js';
 import { Carousel } from '../components/carousel/index.js';
 import { Article } from '../components/article/index.js';
 import { Home } from '../pages/desktop/Home/index.js';
+import { InfoProduto } from '../pages/desktop/Info-Produto/Info-Produto.js';
 
 // Central Registration of Web Components
 customElements.define('app-header', Header);
@@ -14,5 +15,21 @@ customElements.define('app-article', Article);
 
 // Pages
 customElements.define('page-home', Home);
+customElements.define('info-produto', InfoProduto);
 
-console.log('App initialized and components registered.');
+// Roteador
+const app = document.getElementById('app');
+
+const routes = {
+  '': '<page-home></page-home>',
+  '#/': '<page-home></page-home>',
+  '#/produto': '<info-produto></info-produto>',
+};
+
+function router() {
+  app.innerHTML = routes[window.location.hash] || '<page-home></page-home>';
+//   window.scrollTo(0, 0);
+}
+
+window.addEventListener('hashchange', router);
+router();

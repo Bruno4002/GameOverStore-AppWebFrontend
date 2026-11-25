@@ -1,12 +1,12 @@
 .cards{
     margin-top: 8vh;
-    padding: 1vw;
+    padding: 2vw;
 }
 .cards-grid{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1vw;
+    padding-top: 1vw;
     width: 100%;
     color: white;
 }
@@ -16,4 +16,10 @@
     object-fit: cover;
     object-position: top;
     padding: 0;
+}
+
+@media (max-width: 768px) {
+  
+   
+
 }

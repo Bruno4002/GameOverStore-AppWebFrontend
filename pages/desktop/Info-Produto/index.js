@@ -1,0 +1,1 @@
+export { InfoProduto } from './Info-Produto';
