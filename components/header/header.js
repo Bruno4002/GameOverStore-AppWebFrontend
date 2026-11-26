@@ -16,7 +16,7 @@ template.innerHTML = `
         <input class="search" type="text" placeholder="Buscar jogos..">
       </div>
         <a href="index.html">
-         <img src="../../../assets/images/Logo.png" alt="Logo" height="70" width="150"> 
+         <img src="../../../assets/images/Logo.png" alt="Logo"  width="140"> 
         </a>
     </nav>
   </header>
