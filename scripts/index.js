@@ -2,6 +2,7 @@ import { Header } from '../components/header/index.js';
 import { Footer } from '../components/footer/index.js';
 import { Card } from '../components/card/index.js';
 import { Carousel } from '../components/carousel/index.js';
+import { Carouselinfo } from '../components/carousel-info/index.js';
 import { Article } from '../components/article/index.js';
 import { Home } from '../pages/desktop/Home/index.js';
 import { InfoProduto } from '../pages/desktop/Info-Produto/Info-Produto.js';
@@ -11,6 +12,7 @@ customElements.define('app-header', Header);
 customElements.define('app-footer', Footer);
 customElements.define('app-card', Card);
 customElements.define('app-carousel', Carousel);
+customElements.define('app-carouselinfo', Carouselinfo);
 customElements.define('app-article', Article);
 
 // Pages

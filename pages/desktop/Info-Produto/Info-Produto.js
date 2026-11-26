@@ -1,10 +1,63 @@
 export class InfoProduto extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <link rel="stylesheet" href="${new URL('./InfoProduto.css', import.meta.url).href}">
+    <link rel="stylesheet" href="${new URL('./Info-Produto.css', import.meta.url).href}">
     <main>
         
-        <h1>Oi</h1>
+    <div class="main-content">
+      <div class="container">
+        <div class="carrossel">
+          <app-carouselinfo>
+            <img "carousel-item" src="../../../assets/images/GTA6.jpg" alt="Game banner">
+            <img "carousel-item" src="../../../assets/images/SpiderMan2.webp" alt="Spider Man 2 banner">
+            <img "carousel-item" src="../../../assets/images/CrimsonDesert.jpg" alt="Crimson Desert banner">
+          </app-carouselinfo>
+        </div>
+        <div class="info-produto">
+          <img src="../../../assets/images/Crimson_Desert_Logo.png" alt="Game Logo" width="300">
+          <div>
+            <p>⭐ 4,8 | 1,2 mil avaliações | 🎮 Ação • Aventura • Mundo aberto</p>
+          </div>
+          <div class="container-desc">
+
+            <h3>Explore o vasto continente de Pywel em uma aventura épica e inesquecível.</h3>
+            <p>Embarque em uma jornada por um mundo aberto deslumbrante, repleto de histórias, batalhas épicas e
+              escolhas
+              que moldam o seu destino.</p>
+
+          </div>
+          <div class="valor">
+
+            <p>R$ 350,55</p>
+            <p class="button">Adicionar ao carrinho</p>
+
+          </div>
+          </div>
+        </div>
+        <div class="avaliacoes">
+              
+              <h2>Avaliação dos clientes</h2>
+              <div class="avaliacao">
+              
+                <h4>João S.</h4>
+                <p>“Gráficos incríveis e uma história muito envolvente. Excelente mundo aberto!”</p>
+              
+              </div>
+              <div class="avaliacao">
+              
+                <h4>João S.</h4>
+                <p>“Gráficos incríveis e uma história muito envolvente. Excelente mundo aberto!”</p>
+              
+              </div>
+              <div class="avaliacao">
+              
+                <h4>João S.</h4>
+                <p>“Gráficos incríveis e uma história muito envolvente. Excelente mundo aberto!”</p>
+              
+              </div>
+                
+             </div>
+      </div>
 
     </main>
         `;

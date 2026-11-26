@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 </head>
+
 <body>
-    <main>
-        <input type="text" placeholder="Buscar jogos..">
-        <app-carousel>
-          <img class="carousel-item" src="../../../assets/images/GTA6.jpg" alt="GTA 6 banner"> 
-          <img class="carousel-item" src="../../../assets/images/SpiderMan2.webp" alt="Spider Man 2 banner"> 
-          <img class="carousel-item" src="../../../assets/images/CrimsonDesert.jpg" alt="Crimson Desert banner"> 
-        </app-carousel>
+  <main>
 
-        <div class="cards-grid">
-          <app-card>
-            <span slot="title">Card Design A</span>
-            <p>Um componente totalmente isolado visualmente, garantindo que o CSS não sofra interferências externas. Design
-              moderno e limpo.</p>
-          </app-card>
+    <div class="main-content">
+      <div class="container">
+        <div class="carrossel">
+          <app-carouselinfo>
+            <img "carousel-item" src="../../../assets/images/GTA6.jpg" alt="Game banner">
+            <img "carousel-item" src="../../../assets/images/SpiderMan2.webp" alt="Spider Man 2 banner">
+            <img "carousel-item" src="../../../assets/images/CrimsonDesert.jpg" alt="Crimson Desert banner">
+          </app-carouselinfo>
+          <div class="avaliacao">
 
-          <app-card>
-            <span slot="title">Card Design B</span>
-            <p>Utilizando a flexibilidade dos slots, este card pode receber variados tipos de conteúdo. É muito mais
-              dinâmico agora.</p>
-          </app-card>
+            <p>R$ 350,55</p>
+            <p class="button">Adicionar ao carrinho</p>
 
-          <app-card>
-            <span slot="title">Card Design C</span>
-            <p>Perfeito para exibir produtos, resumos de artigos, perfis de usuários e muito mais.</p>
-          </app-card>
+          </div>
+          <div class="avaliacao">
+
+            <p>R$ 350,55</p>
+            <p class="button">Adicionar ao carrinho</p>
+
+          </div>
+
         </div>
+        <div class="info-produto">
+          <img src="../../../assets/images/Crimson_Desert_Logo.png" alt="Game Logo" width="300">
+          <div>
+            <p>⭐ 4,8 | 1,2 mil avaliações | 🎮 Ação • Aventura • Mundo aberto</p>
+          </div>
+          <div class="container-desc">
 
-        <app-article>
-          <span slot="title">Web Components</span>
-          <span slot="meta">Publicado por: </span>
+            <h3>Explore o vasto continente de Pywel em uma aventura épica e inesquecível.</h3>
+            <p>Embarque em uma jornada por um mundo aberto deslumbrante, repleto de histórias, batalhas épicas e
+              escolhas
+              que moldam o seu destino.</p>
 
-          <p>Os Web Components são um conjunto de diferentes tecnologias que permitem a criação de elementos customizados e
-            reutilizáveis — com suas funcionalidades encapsuladas longe do resto do código — e a sua utilização em
-            aplicações web.</p>
+          </div>
+          <div class="valor">
 
-          <h2>Por que usar?</h2>
-          <p>Um dos maiores problemas no desenvolvimento front-end é a colisão de CSS e scripts. O <b>Shadow DOM</b> resolve
-            esse problema encapsulando a estrutura e os estilos.</p>
+            <p>R$ 350,55</p>
+            <p class="button">Adicionar ao carrinho</p>
 
-          <h2>Templates e Slots</h2>
-          <p>Ao utilizarmos a tag <code>&lt;template&gt;</code>, garantimos que a marcação é processada de forma eficiente
-            na memória do navegador. Já os <code>&lt;slot&gt;</code> nos permitem injetar o conteúdo HTML desejado nos
-            componentes dinamicamente.</p>
-        </app-article>
-      </main>
+          </div>
+          <div class="avaliacoes">
+
+            <h3>Avaliação dos clientes</h3>
+            <div class="avaliacao">
+
+              <h4>João S.</h4>
+              <p>“Gráficos incríveis e uma história muito envolvente. Excelente mundo aberto!”</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
 </body>
+
 </html>
