@@ -8,13 +8,16 @@
 }
 
 .carrossel{
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 40%;
 }
+
+/* .logo{
+} */
 
 main{
     height: 100%;
@@ -28,7 +31,7 @@ main{
 }
 
 .info-produto{
-    height: 80%;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -61,6 +64,13 @@ main{
     height: 20%;
     font-size: 40px;
 }
+/* 
+.valor p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} */
 
 .button{
     font-size: 18px;
