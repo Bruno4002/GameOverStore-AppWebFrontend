@@ -6,7 +6,8 @@ import { Carouselinfo } from '../components/carousel-info/index.js';
 import { Article } from '../components/article/index.js';
 import { Home } from '../pages/desktop/Home/index.js';
 import { InfoProduto } from '../pages/desktop/Info-Produto/Info-Produto.js';
-
+import { Perfil } from '../pages/desktop/Perfil/Perfil.js';
+// import { SobreNos } from '../pages/desktop/SobreNos/Sobre-nos.js';
 // Central Registration of Web Components
 customElements.define('app-header', Header);
 customElements.define('app-footer', Footer);
@@ -18,7 +19,8 @@ customElements.define('app-article', Article);
 // Pages
 customElements.define('page-home', Home);
 customElements.define('info-produto', InfoProduto);
-
+customElements.define('perfil-teste', Perfil);
+// customElements.define('sobre-nos', SobreNos);
 // Roteador
 const app = document.getElementById('app');
 
@@ -26,6 +28,8 @@ const routes = {
   '': '<page-home></page-home>',
   '#/': '<page-home></page-home>',
   '#/produto': '<info-produto></info-produto>',
+  '#/perfil': '<perfil-teste></perfil-teste>',
+  // '#/sobre-nos': '<sobre-nos></sobre-nos>',
 };
 
 function router() {

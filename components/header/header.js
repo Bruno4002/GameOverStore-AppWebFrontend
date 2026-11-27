@@ -8,10 +8,10 @@ template.innerHTML = `
       <div class="main-content">
         <ul class="links">
           <li><a href="#home-page">Início</a></li>
-          <li><a href="#carrinho">Carrinho</a></li>
-          <li><a href="#biblioteca">Biblioteca</a></li>
-          <li><a href="#sobre-nos">Sobre Nós</a></li>
-          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#/carrinho">Carrinho</a></li>
+          <li><a href="#/biblioteca">Biblioteca</a></li>
+          <li><a href="#/sobre-nos">Sobre Nós</a></li>
+          <li><a href="#/perfil">Perfil</a></li>
         </ul>
         <input class="search" type="text" placeholder="Buscar jogos..">
       </div>
